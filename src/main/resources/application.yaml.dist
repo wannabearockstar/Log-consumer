@@ -1,0 +1,5 @@
+jms:
+  url: tcp://localhost:61616
+  destination: com.destination.path
+server:
+  port: 8082

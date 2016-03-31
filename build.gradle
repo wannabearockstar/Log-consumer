@@ -37,6 +37,8 @@ dependencies {
 	compile('org.springframework.integration:spring-integration-core:4.2.5.RELEASE')
 	compile('org.springframework.integration:spring-integration-jms:4.2.5.RELEASE')
 	compile('org.springframework.integration:spring-integration-file:4.2.5.RELEASE')
+	compile("org.apache.activemq:activemq-core:5.7.0")
+	compile("org.springframework.amqp:spring-rabbit:1.5.5.RELEASE")
 
 	compile("org.slf4j:jcl-over-slf4j:1.7.12")
 	compile("ch.qos.logback:logback-classic:1.1.3")
